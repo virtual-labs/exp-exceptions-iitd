@@ -3,10 +3,6 @@ The **Exception Handling in Java** is one of the powerful mechanism to handle th
 Exception Handling is a mechanism to handle runtime errors such a ClassNotFoundException, IOException, SQLException, RemoteException, etc.
 
 
-#### Hierarchy of Java Exception classes
-
-![image](images/img1.png) 
-
 #### Types of Java Exceptions
 There are mainly two types of exceptions: checked and unchecked. Here, an error is considered as the unchecked exception. According to Oracle, there are three types of exceptions:
 1.	Checked Exception
