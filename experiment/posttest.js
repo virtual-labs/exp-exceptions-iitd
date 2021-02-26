@@ -104,7 +104,7 @@
     },
 
     {
-      question: "Q3.  …………………….. exception is thrown when an attempt is made to access an array element beyond the index of the array.",
+      question: "Q3.  ___________ exception is thrown when an attempt is made to access an array element beyond the index of the array.",
       
       answers: {
         a: "Throwable",
@@ -128,7 +128,7 @@
     },
 	
 	{
-      question: "Q5. The …………………. statement can be used to handle an exception that is not caught by any of the previous catch statement.",
+      question: "Q5. The __________ statement can be used to handle an exception that is not caught by any of the previous catch statement.",
       
       answers: {
         a: "throw",
