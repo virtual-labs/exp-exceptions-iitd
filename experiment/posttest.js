@@ -80,25 +80,25 @@
 
   const myQuestions = [
     {
-      question: "Q1. What will be the output of the following Java program?",
+      question: "Q1. Exception is a class/interface/abstract class/other?",
 
       answers: {
-        a: "Hello",
-        b: "World",
-        c: "HelloWorld",
-        d: "Hello World"
+        a: "Interface",
+        b: "Class",
+        c: "Abstract class",
+        d: "Other"
       },
       correctAnswer: "b"
     },
 
     {
-      question: "Q2. What will be the output of the following Java program?",
+      question: "Q2. Exception is found in which package in java_____.",
 
       answers: {
-        a: "A",
-        b: "B",
-        c: "Compilation Error",
-        d: " Runtime Error"
+        a: "java.util",
+        b: "java.lang",
+        c: "java.io",
+        d: "java"
       },
       correctAnswer: "b"
     },
@@ -116,13 +116,13 @@
     },
 	
 	{
-      question: "Q4. What will be the output?",
+      question: "Q4. Exception was introduced in which java version?",
 
       answers: {
-        a: "Error",
-        b: "Division by zero",
-        c: "Catch block", 
-        d: " Division by zero Catch block"        
+        a: "Java 4",
+        b: "Java 3",
+        c: "Java 1", 
+        d: "Java 2"      
       },
       correctAnswer: "c"
     },
