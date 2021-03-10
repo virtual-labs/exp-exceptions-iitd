@@ -24,11 +24,11 @@ Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, AssertionErro
 
 ### Java Exception Keywords
 
-**try** :The **"try"** keyword is used to specify a block where we should place exception code. The try block must be followed by either catch or finally. It means, we can't use try block alone.<br>
-**catch** :The **"catch"** block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone. It can be followed by finally block later.<br>
-**finally** : The **"finally"** block is used to execute the important code of the program. It is executed whether an exception is handled or not.<br>
-**throw** :The **"throw"** keyword is used to throw an exception.<br>
-**throws** : The **"throws"** keyword is used to declare exceptions. It doesn't throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.<br>
+**try** : The **"try"** keyword is used to specify a block where we should place exception code. The try block must be followed by either catch or finally. It means, we can't use try block alone.<br>
+**catch** : The **"catch"** block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone. It can be followed by finally block later.<br>
+**finally** :  The **"finally"** block is used to execute the important code of the program. It is executed whether an exception is handled or not.<br>
+**throw** : The **"throw"** keyword is used to throw an exception.<br>
+**throws** :  The **"throws"** keyword is used to declare exceptions. It doesn't throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.<br>
 
 ### Common Scenarios of Java Exceptions
 
@@ -38,7 +38,7 @@ There are given some scenarios where unchecked exceptions may occur. They are as
 
 If we divide any number by zero, there occurs an ArithmeticException.
 ```sh
-1.	int a=50/0;//ArithmeticException  
+int a=50/0;//ArithmeticException  
 ```
 ### 2) A scenario where NullPointerException occurs
 
