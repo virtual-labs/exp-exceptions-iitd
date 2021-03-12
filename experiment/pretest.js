@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "Q1. When doesExceptions in Java arises in code sequence?",
+      question: "Q1. When does Exceptions in Java arises in code sequence?",
       answers: {
         a: "Run Time",
         b: "Compilation Time",
