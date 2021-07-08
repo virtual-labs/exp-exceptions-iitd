@@ -36,17 +36,17 @@ There are mainly two types of exceptions: checked and unchecked. Here, an error 
 -	Unchecked Exception
 -	Error
 
-### 1) Checked Exception
+#### 1) Checked Exception
 
 - The classes which directly inherit Throwable class except RuntimeException and Error are known as **checked exceptions**. 
 - E.g. IOException, SQLException etc. Checked exceptions are checked at compile-time.
 
-### 2) Unchecked Exception
+#### 2) Unchecked Exception
 
 - The classes which inherit RuntimeException are known as **unchecked exceptions**.
 - E.g. ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
 
-### 3) Error
+#### 3) Error
 
 - Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, AssertionError etc.
 
@@ -54,11 +54,11 @@ There are mainly two types of exceptions: checked and unchecked. Here, an error 
 
 ### Java Exception Keywords
 
-- **try** : The **"try"** keyword is used to specify a block where we should place exception code. The try block must be followed by either catch or finally. It means, we can't use try block alone.<br>
-- **catch** : The **"catch"** block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone. It can be followed by finally block later.<br>
-- **finally** :  The **"finally"** block is used to execute the important code of the program. It is executed whether an exception is handled or not.<br>
-- **throw** : The **"throw"** keyword is used to throw an exception.<br>
-- **throws** :  The **"throws"** keyword is used to declare exceptions. It doesn't throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.<br>
+- **try** : The **try** keyword is used to specify a block where we should place exception code. The try block must be followed by either catch or finally. It means, we can't use try block alone.<br>
+- **catch** : The **catch** block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone. It can be followed by finally block later.<br>
+- **finally** :  The **finally** block is used to execute the important code of the program. It is executed whether an exception is handled or not.<br>
+- **throw** : The **throw** keyword is used to throw an exception.<br>
+- **throws** :  The **throws** keyword is used to declare exceptions. It doesn't throw an exception. It specifies that there may occur an exception in the method. It is always used with method signature.<br>
 
 ---
 
@@ -66,20 +66,20 @@ There are mainly two types of exceptions: checked and unchecked. Here, an error 
 
 There are given some scenarios where unchecked exceptions may occur. They are as follows:
 
-### 1) A scenario where ArithmeticException occurs
+#### 1) A scenario where ArithmeticException occurs
 
 If we divide any number by zero, there occurs an ArithmeticException.
 ```
 int a=50/0;//ArithmeticException  
 ```
-### 2) A scenario where NullPointerException occurs
+#### 2) A scenario where NullPointerException occurs
 
 If we have a null value in any variable, performing any operation on the variable throws a NullPointerException.
 ```
 String s=null;  
 System.out.println(s.length());//NullPointerException  
 ```
-### 3) A scenario where NumberFormatException occurs
+#### 3) A scenario where NumberFormatException occurs
 
 The wrong formatting of any value may occurNumberFormatException.
 ```
