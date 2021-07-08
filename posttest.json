@@ -1,0 +1,46 @@
+[{
+	"question": "Q1. Exception is a class/interface/abstract class/other?",
+	"answers": {
+		"a": "Interface",
+		"b": "Class",
+		"c": "Abstract class",
+		"d": "Other"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q2. Exception is found in which package in java_____.",
+	"answers": {
+		"a": "java.util",
+		"b": "java.lang",
+		"c": "java.io",
+		"d": "java"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3.  ___________ exception is thrown when an attempt is made to access an array element beyond the index of the array.",
+	"answers": {
+		"a": "Throwable",
+		"b": "Restricted",
+		"c": "Security",
+		"d": "ArrayIndexOutofBounds"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q4. Exception was introduced in which java version?",
+	"answers": {
+		"a": "Java 4",
+		"b": "Java 3",
+		"c": "Java 1",
+		"d": "Java 2"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q5. The __________ statement can be used to handle an exception that is not caught by any of the previous catch statement.",
+	"answers": {
+		"a": "throw",
+		"b": "catch",
+		"c": "finally",
+		"d": "try"
+	},
+	"correctAnswer": "c"
+}]
