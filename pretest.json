@@ -1,0 +1,46 @@
+[{
+	"question": "Q1. When does Exceptions in Java arises in code sequence?",
+	"answers": {
+		"a": "Run Time",
+		"b": "Compilation Time",
+		"c": " Can Occur Any Time",
+		"d": "None of the mentioned"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2.Which of these keywords is not a part of exception handling?",
+	"answers": {
+		"a": "try",
+		"b": "finally",
+		"c": "thrown",
+		"d": "catch"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q3. Which of these keywords must be used to monitor for exceptions?",
+	"answers": {
+		"a": "try",
+		"b": "finally",
+		"c": "throw",
+		"d": "catch"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q4. Which of these keywords is used to manually throw an exception?",
+	"answers": {
+		"a": "try",
+		"b": "finally",
+		"c": "throw",
+		"d": "catch"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q5. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?",
+	"answers": {
+		"a": "try",
+		"b": "finally",
+		"c": "throw",
+		"d": "catch"
+	},
+	"correctAnswer": "d"
+}]
