@@ -104,7 +104,7 @@ function FunctionBack1(){
 }
 
 function createclass(){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <input type='text' id='cname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <input type='text' id='cname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// public class in java is a blueprint of objects which specifies properties and methods of objects belonging to that particular class.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function mainmethod(cname){
@@ -112,11 +112,11 @@ function mainmethod(cname){
 }
 
 function trystart(cname){
- document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <span id='cname'>"+cname+"</span>{<br>public static void main(String args[])<br>{<br>try{<br> int a = 30, b = 0; <br> int c = a/b;<br> System.out.println ('Result = ' + c); <br>}<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3'>Next</button></div>";
+ document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <span id='cname'>"+cname+"</span>{<br>public static void main(String args[])<br>{<br>//code that may raise exception.<br>try{<br> int a = 30, b = 0; <br> int c = a/b;<br> System.out.println ('Result = ' + c); <br>}<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3'>Next</button></div>";
 }
 
 function catchstart(cname){
- document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <span id='cname'>"+cname+"</span>{<br>public static void main(String args[])<br>{<br>try{<br> int a = 30, b = 0; <br> int c = a/b;<br> System.out.println ('Result = ' + c); <br>}<br>catch(ArithmeticException e){<br>System.out.println ('<input type='text' id='mesg' placeholder='message...'  style='width:160px;height:21px;'>'); <br>&nbsp;&nbsp;//Can't divide a number by 0<br>}<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4'>Next</button></div>";
+ document.getElementById("area").innerHTML = "<p style='font-size:16px'>public class <span id='cname'>"+cname+"</span>{<br>public static void main(String args[])<br>{<br>try{<br> int a = 30, b = 0; <br> int c = a/b;<br> System.out.println ('Result = ' + c); <br>}<br>catch(ArithmeticException e){<br><br> //The catch block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone.<br><br>System.out.println ('<input type='text' id='mesg' placeholder='message...'  style='width:160px;height:21px;'>'); <br>&nbsp;&nbsp;//Can't divide a number by 0<br>}<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4'>Next</button></div>";
 }
 
 function trycatchmethod(cname,mesg){
